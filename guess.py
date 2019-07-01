@@ -9,7 +9,7 @@ number = random.randint(1,100)
 
 
 while not won:
-    print("Hi, please guess the number I'm thinking of: " + " You have made " + str(guessCount) + " guesses")
+    print("Please guess the number I'm thinking of: " + " You have made " + str(guessCount) + " guesses")
     guess = input()
     try:
         val = int(guess)
